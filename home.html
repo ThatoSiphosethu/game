@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+
+</head>
+<body>
+<form>
+    <h1>Bulls and Cows</h1>
+    <input type="number" max="9999" min="0000" placeholder="----" id="play">
+    <button>Play</button>
+    <div>
+        <input type="submit" id="rules" name="rules"></input>
+        <p>If the player's guess matches the secret number, they win. If the player's guess contains a digit that
+            matches one of the digits in the secret number and is in the same position, that is considered one "bull".
+            If the player's guess contains a digit that matches one of the digits in the secret number but is not in
+            the same position, that is considered one "cow".
+        </p>
+    </div>
+</form>
+
+</body>
+</html>
